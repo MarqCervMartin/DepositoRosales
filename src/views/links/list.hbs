@@ -1,0 +1,20 @@
+<div class="container p-4">
+    <div class="row">
+        {{#each pedidos}}
+            <div class="col-md-3">
+                <div class="card-text-center">
+                    <div class="card-body">
+                        <p>{{timeago created_At}}</p>
+                        <h3 class="card-title text-uppercase">
+                                {{nombre}}
+                        </h3>
+                        <p class="m-2">{{cantidad}}</p>
+                        <p class="m-2">{{mensaje}}</p>
+                        <a href="" class="btn btn-danger">Borrar Pedido</a>
+                        <a href="" class="btn btn-secondary">Editar</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
