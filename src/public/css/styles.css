@@ -1,0 +1,30 @@
+body{
+    background: #f5f6f5;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+.index{
+    width: 100vw;
+    height: 100vh;
+}
+.masthead{
+    color: black;
+    min-height: 30rem;
+    width: 100%;;
+    height: 100%;
+    padding-top: 10rem;
+    background: url('https://upload.elifedrive.com:8443/storage-api/0/users/26190/photos/items/5f38b4bc64171adddc89eba2/previews/jsrtyfesbrcihbtzgrnuheqxmu/preview?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcmluY2lwYWxzIjpbInBob3Rvc19pdGVtXzVmMzhiNGJjNjQxNzFhZGRkYzg5ZWJhMl9yZWFkZXIiXSwiZXhwIjoxNjA1MzEyMDAwfQ.iiKIDoM6cPGn-FvPgmfWMqrOxZ_EzDHt7yUlZYAfT-A&bk=jsrtyfesbr');
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.masthead h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+@media(min-width: 992px){
+    .masthead h1{
+        font-size: 5.5rem;
+    }
+}
