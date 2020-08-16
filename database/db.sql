@@ -6,12 +6,12 @@ CREATE TABLE users(
     username varchar(16) NOT NULL,
     password varchar(60) NOT NULL,
     fullname varchar(100) NOT NULL,
-    domicilio varchar(150) NOT NULL,
+    domicilio varchar(150) NOT NULL
 );
 
 ALTER TABLE users ADD PRIMARY KEY(id);
 ALTER TABLE users MODIFY id INT(11) NOT NULL AUTO_INCREMENT;
-DESCRIBE users;
+--DESCRIBE users;
 -- Links tables
 CREATE TABLE pedidos(
     id INT(11) NOT NULL,
@@ -24,4 +24,4 @@ CREATE TABLE pedidos(
 );
 ALTER TABLE pedidos ADD PRIMARY KEY (id);
 ALTER TABLE pedidos MODIFY id INT(11) NOT NULL AUTO_INCREMENT;
-DESCRIBE pedidos;
+--DESCRIBE pedidos;
